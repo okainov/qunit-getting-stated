@@ -1,0 +1,9 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "qunit": "^2.6.1"
+  },
+  "scripts": {
+    "test": "qunit"
+  }
+}
