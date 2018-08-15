@@ -1,3 +1,8 @@
+// Use "require" only if run from command line
+if (typeof(require) !== 'undefined') {
+    calculateSum = require('../index.js').calculateSum;
+}
+
 QUnit.module("QUnit is working");
 
 QUnit.test("true is true", function (assert) {
